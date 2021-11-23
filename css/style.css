@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Zen Antique Soft', serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/concrete_seamless.png');
+    background-color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #017789;
+    height: 60px;
+  }
+  
+  
+  .links ul {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+  }
+
+  .navbar .current {
+    background-color: #ffffff;
+    color: #000000; 
+    border: 2px solid #000000; 
+    text-decoration: underline;
+  }
+
+  h1 {
+    font-size: 40px; 
+    text-decoration: underline;
+    padding-top: 10px;
+    text-align:center;
+  }
+
+  .content-section p{
+    padding-left: 10px; 
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .section {
+    width: 100%;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .image-section {
+    width: 25;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: auto; 
+    justify-content: center;
+  }
+
+  footer {
+    margin: 10px 0;
+    background-color: #017789;
+
+  }
+
+  footer p{
+      color: white;
+      font-size: 20px;
+  }
+
+  footer img{
+    width: 40px;
+    height: auto;
+  }
+
+  .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    row-gap: 15px;
+
+  }
+
+  .umich-Image {
+    grid-column: 1;
+    grid-row: 1;
+    overflow: hidden;
+  }
+  
+  .umich{
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .whrhs-image {
+
+    grid-column: 1 ;
+    grid-row: 3;
+    overflow: hidden;
+  }
+  
+  .whrhs{
+    grid-column: 1;
+    grid-row: 4;
+
+  }
+  
+  .cornell-image {
+    grid-column: 1;
+    grid-row: 5;
+    overflow: hidden;
+  }
+  
+  .cornell {
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .text-block{
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+  
+  }
+
+  .container h2{
+    text-decoration: underline black 3px;
+    font-weight: bold;
+
+  }
+
+    .interest-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(9, auto);
+    row-gap: 15px;
+  }
+
+  #traveling{
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+   #baking{
+    grid-column: 2 / span 1;
+    grid-row: 2;
+  }
+
+  #tennis{
+    grid-column: 1 / span 1;
+    grid-row: 3;
+  }
+
+  #beach{
+    grid-column: 2 / span 1;
+    grid-row: 4;
+  }
+
+  #yoga{
+    grid-column: 1 / span 1;
+    grid-row: 5;
+  }
+
+  #reading{
+    grid-column: 2 / span 1;
+    grid-row: 6;
+  }
+
+  #icecream{
+    grid-column: 1 / span 1;
+    grid-row: 7;
+  }
+
+  #yankees{
+    grid-column: 2 / span 1;
+    grid-row: 8;
+  }
+
+  #photography{
+    grid-column: 1 / span 1;
+    grid-row: 9;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: 1px solid black; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize:both; 
+  }
+  
+  input[type=submit] {
+    margin: auto;
+    width: 20%;
+    padding-right: 89px;;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color:#017789; 
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    justify-content: center;
+    color: white; 
+    cursor: pointer;
+  }
+
+  .contactform {
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    width: 90%; 
+    display: flex;
+    margin: auto;
+    padding-top: 15px;
+    margin-top: 15px;
+    border: 2px solid black;
+  }
