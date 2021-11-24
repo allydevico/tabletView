@@ -273,6 +273,81 @@
     border: 2px solid;
   }
 
+  @media only screen and (max-width: 1024) {
+    
+    .links li a {
+      padding-left: 4rem;
+      padding-right: 4rem;
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+      font-size: 18px;
+    }
+
+    .image-section img {
+      width: 75%;
+    }
+
+    .content-section p {
+      font-size: 23px;
+    }
+
+    .footer p{
+      font-size: 23px;
+    }
+
+    footer img {
+      width: 60px;
+    }
+
+  .education_container{
+    padding-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 50px;
+  }
+
+  .umich-image {
+    grid-column: 1 /span 2;
+    grid-row: 1;
+  }
+  
+  .umich{
+    font-size: 20px;
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .whrhs-image {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+  }
+  
+  .whrhs{
+    font-size: 20px;
+    grid-column: 1 /span 2;
+    grid-row: 2;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .cornell-image {
+    grid-column: 1 /span 2;
+    grid-row: 3;
+  }
+  
+  .cornell {
+    font-size: 20px;
+    grid-column: 3 /span 2;
+    grid-row: 3;
+    margin: auto;
+    align-items: center;
+  }
+
+
+}
+
   @media screen and (prefers-reduced-motion: reduce){
     /*Turn off scroll*/
     html{
