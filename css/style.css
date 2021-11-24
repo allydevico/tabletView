@@ -95,7 +95,7 @@
     height: auto;
   }
 
-  .container{
+  .education_container{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -104,7 +104,7 @@
 
   }
 
-  .umich-Image {
+  .umich-image {
     grid-column: 1;
     grid-row: 1;
     overflow: hidden;
@@ -241,4 +241,39 @@
     padding-top: 15px;
     margin-top: 15px;
     border: 2px solid black;
+  }
+
+  .skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+  }   
+  
+  .skip a:focus {
+    position: static;
+    top: 0px;
+    visibility: visible;
+  }
+  
+  *:focus {
+    border: 2px solid;
+  }
+
+  @media screen and (prefers-reduced-motion: reduce){
+    /*Turn off scroll*/
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    /*Turn off transition*/
+    .skip a{
+      -webkit-transition: initial; /* sets to default setting */
+      transition: initial; /* sets to default setting */
+    }
+
   }
