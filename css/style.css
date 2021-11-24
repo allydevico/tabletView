@@ -32,7 +32,7 @@
   .links li a {
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     display: block;
   }
 
@@ -276,10 +276,7 @@
   @media only screen and (min-width: 1024px) {
     
     .links li a {
-      padding-left: 4rem;
-      padding-right: 4rem;
-      padding-left: 1rem;
-      padding-bottom: 1rem;
+      padding: 1rem 4rem 1rem 4rem;
       font-size: 18px;
     }
 
